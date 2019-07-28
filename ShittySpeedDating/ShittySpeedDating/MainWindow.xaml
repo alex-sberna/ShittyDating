@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ShittySpeedDating"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="650" Width="800">
     <Grid>
-        
+        <GroupBox Name="buttonGroup" Height="300" Width="740" Margin="26,296,26,20">
+            <Grid>
+                <Button Name="ChoiceFirst" Width="300" Margin="24,20,404,174"/>
+            </Grid>
+        </GroupBox>
     </Grid>
 </Window>
